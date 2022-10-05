@@ -1,2 +1,2 @@
-# docker-compose
-Docker-compose configuration files
+### docker-compose
+The docker-compose configuration files in my homeserver are mostly deployed with Portainer.
