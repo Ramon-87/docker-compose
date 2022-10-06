@@ -11,7 +11,7 @@ At this moment this repositorie contains the following docker containers:
 <details>
   <summary> Portainer-agent </summary>
   
-  [Portainer-agent](https://github.com/Ramon-87/docker-compose/tree/main/portainer-agent) let you connect to another instance of Docker
+  [Portainer-agent](https://github.com/Ramon-87/docker-compose/tree/main/portainer-agent) let's you connect to another instance of Docker
 
 </details>
 
