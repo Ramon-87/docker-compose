@@ -4,9 +4,17 @@ At this moment this repositorie contains the following docker containers:
 <details>
   <summary> Portainer </summary>
   
-  [Portainer](https://github.com/Ramon-87/docker-compose/tree/main/portainer) is a GUI to manage docker containers.
+  [Portainer](https://github.com/Ramon-87/docker-compose/tree/main/portainer) is a GUI to manage Docker containers.
 
 </details>
+
+<details>
+  <summary> Portainer-agent </summary>
+  
+  [Portainer-agent](https://github.com/Ramon-87/docker-compose/tree/main/portainer-agent) let you connect to another instance of Docker
+
+</details>
+
 
 <details>
   <summary> Wishlist </summary>
