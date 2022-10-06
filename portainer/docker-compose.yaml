@@ -7,7 +7,9 @@ services:
     restart: unless-stopped
     security_opt:
       - no-new-privileges:true
-    networks:
+    ports:
+      - 9000:9000
+    networks:   # comment networks and options if not necessary
       - proxy
     volumes:
       - /etc/localtime:/etc/localtime:ro
@@ -15,6 +17,6 @@ services:
       - ./portainer/data:/data
     # labels:
 
-networks:
+networks:    # comment networks and options if not necessary
   proxy:
     external: true
