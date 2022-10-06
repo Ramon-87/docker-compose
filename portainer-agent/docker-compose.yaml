@@ -3,7 +3,7 @@ version: '3.2'
 services:
   agent:
     container_name: agent
-    image: portainer/agent:2.6.3
+    image: portainer/agent:latest
     restart: always
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
