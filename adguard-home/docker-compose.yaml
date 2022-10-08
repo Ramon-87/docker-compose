@@ -1,0 +1,18 @@
+# Install Adguard Home to block DNS-records
+
+version: '3.3'
+services:
+  adguardhome:
+    container_name: adguard-home
+    restart: unless-stopped
+    volumes:
+      - /docker/adguard/data:/opt/adguardhome/work
+      - /docker/adguard/config:/opt/adguardhome/conf
+    ports:
+      - '53:53/tcp'
+      - '53:53/udp'
+      - '180:80/tcp'
+      - '1443:443/tcp'
+      - '1443:443/udp'
+      - '3000:3000/tcp'
+    image: adguard/adguardhome
