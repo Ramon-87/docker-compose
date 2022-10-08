@@ -22,11 +22,6 @@ At this moment this repositorie contains the following docker containers:
   
   [Portainer-agent](https://github.com/bes-r/docker-compose/tree/main/portainer-agent) let's you connect to another instance of Docker
 
-<details>
-  <summary> Portainer-agent </summary>
-  
-  [Portainer-agent](https://github.com/bes-r/docker-compose/tree/main/portainer-agent) let's you connect to another instance of Docker
-
 </details>
   
 <details>
