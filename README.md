@@ -4,9 +4,23 @@ At this moment this repositorie contains the following docker containers:
 <details>
   <summary> Portainer </summary>
   
+  [Adguard Home]([https://github.com/bes-r/docker-compose/tree/main/portainer](https://github.com/bes-r/docker-compose/tree/main/adguard-home)) can work as a dns-server with adblocker and has also an option to work as a dhcp-server.
+
+</details>
+
+</details>
+
+<details>
+  <summary> Portainer </summary>
+  
   [Portainer](https://github.com/bes-r/docker-compose/tree/main/portainer) is a GUI to manage Docker containers.
 
 </details>
+
+<details>
+  <summary> Portainer-agent </summary>
+  
+  [Portainer-agent](https://github.com/bes-r/docker-compose/tree/main/portainer-agent) let's you connect to another instance of Docker
 
 <details>
   <summary> Portainer-agent </summary>
